@@ -1,0 +1,81 @@
+.services {
+  margin-bottom: 150px;
+}
+
+.services-list{
+  display: flex;
+}
+
+
+.service-card.is--main{
+  background-image: url("../images/photo2.png");
+  flex-basis: 300px;
+  max-width: 416px;
+  max-height: 540px;
+}
+
+.services-list,
+.service-cards{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 24px;
+}
+
+.service-card{
+  flex: 1;
+  min-height: 258px;
+  background-image: url("../images/photo3.png");
+  background-size: cover;
+  flex-basis: 416px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 7px solid transparent;
+}
+
+.service-card:hover{
+  border-color: #018ABE;
+}
+
+.services-title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  padding: 0 45px;
+}
+
+.services-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.slide-2{
+  width: 416px;
+  height: 540px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.service-card{
+}
+
+.name-standart{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  padding: 0 0 40px 50px;
+  max-width: 336px;
+}
+
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  padding: 0 0 30px 40px;
+  max-width: 336px;
+}

@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>Site</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
   <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
         integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"/>
-  <link rel="stylesheet" href="./css/style.css"/>
-  <link rel="stylesheet" href="./css/reviews.css"/>
+        referrerpolicy="no-referrer" rel="stylesheet"/>
+  <link href="./css/style.css" rel="stylesheet"/>
+  <link href="./css/reviews.css" rel="stylesheet"/>
+  <link href="./css/services.css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
     <div class="container">
       <div class="header-inner">
         <a class="logo">
-          <img src="./assets/logo.svg" alt="logo-ritm-style">
+          <img alt="logo-ritm-style" src="./assets/logo.svg">
         </a>
         <nav class="menu">
           <ul class="menu-list">
@@ -54,16 +55,16 @@
 
   <main>
     <section class="water-therapy">
-      <div class="container" >
-        <div class="slide" style="background-image: url(images/photo1.png);">
+      <div class="container">
+        <div class="background">
           <div class="white-logo">
-            <img src="./assets/white-logo-1.svg" alt="white-logo-1">
-        <h3 class="paragrph-inner">Зміцнення здоров'я</h3>
-            <img src="./assets/white-logo-2.svg" alt="white-logo-2">
+            <img alt="white-logo-1" src="./assets/white-logo-1.svg">
+            <h3 class="paragrph-inner">Зміцнення здоров'я</h3>
+            <img alt="white-logo-2" src="./assets/white-logo-2.svg">
           </div>
-        <h1 class="title">
-          Акватерапія RitmStyle
-        </h1>
+          <h1 class="title">
+            Акватерапія RitmStyle
+          </h1>
         </div>
       </div>
     </section>
@@ -71,52 +72,40 @@
     <section class="services">
       <div class="container">
         <div class="services-item">
-          <img src="./assets/blue-logo-1.svg" alt="blue-logo">
-      <h2 class="services-title">Сеанси RitmStyle</h2>
-          <img src="./assets/blue-logo-2.svg" alt="blue-logo-2">
+          <img alt="blue-logo" src="./assets/blue-logo-1.svg">
+          <h2 class="services-title">Сеанси RitmStyle</h2>
+          <img alt="blue-logo-2" src="./assets/blue-logo-2.svg">
         </div>
-        <div class="services-menu">
-          <ul>
-            <li>
-        <div class="slide-2" style="background-image: url(images/photo2.png);">
-      <p class="standart-ritmstyle">
-        Стандартний RitmStyle
-      </p>
+
+        <div class="services-list">
+          <div class="service-card is--main">
+            <span class="name-standart">
+              Стандартний RitmStyle
+            </span>
+          </div>
+          <div class="service-cards">
+            <div class="service-card">
+              <span class="name">
+              RitmStyle для пар
+              </span>
+            </div>
+            <div class="service-card">
+              <span class="name">
+              RitmStyle з повним зануренням під воду
+            </span>
+            </div>
+            <div class="service-card">
+              <span class="name">
+              RitmStyle для вагітних
+              </span>
+            </div>
+            <div class="service-card">
+              <span class="name">
+              RitmStyle + підводна фотосесія
+            </span>
+            </div>
+          </div>
         </div>
-            </li>
-          </ul>
-            <ul>
-              <li class="slide-item">
-                <div class="slide-3" style="background-image: url(images/photo3.png);">
-                  <p class="ritmlyle-for-2">
-                    RitmStyle для пар
-                  </p>
-                </div>
-              </li>
-              <li class="slide-item-1">
-                <div class="slide-3" style="background-image: url(images/photo3.png);">
-                  <p class="ritmlyle-full">
-                    RitmStyle з повним зануренням під воду
-                  </p>
-                </div>
-              </li>
-            </ul>
-            <ul>
-              <li class="slide-item">
-                <div class="slide-3" style="background-image: url(images/photo3.png);">
-                  <p class="ritmlyle-for-2">
-                    RitmStyle для вагітних
-                  </p>
-                </div>
-              </li>
-              <li class="slide-item-1">
-                <div class="slide-3" style="background-image: url(images/photo3.png);">
-                  <p class="ritmlyle-full">
-                    RitmStyle + підводна фотосесія
-                  </p>
-                </div>
-              </li>
-            </ul>
         </div>
       </div>
     </section>
@@ -124,64 +113,74 @@
     <section class="reviews">
       <div class="container-reviews">
         <div class="services-item">
-          <img src="./assets/blue-logo-1.svg" alt="blue-logo">
+          <img alt="blue-logo" src="./assets/blue-logo-1.svg">
           <h2 class="services-title">Відгуки</h2>
-          <img src="./assets/blue-logo-2.svg" alt="blue-logo-2">
+          <img alt="blue-logo-2" src="./assets/blue-logo-2.svg">
         </div>
         <div class="reviews-menu">
-      <ul class="reviews-list">
-        <li class="review-first">
-          <blockquote>
-            <cite class="review-first-item">Александра Дмитриева</cite>
-            <p class="review-first-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur nulla viverra egestas tellus. Cursus
-              scelerisque phasellus netus proin. Etiam mauris maecenas facilisis faucibus mauris eleifend purus. Purus
-              dictum
-              vulputate elementum mauris amet.
-              Hendrerit sit cras ullamcorper morbi quam vitae ante nibh. Ornare ipsum mi nisl augue placerat lacus.
-              Dolor
-              ipsum
-              fermentum viverra bibendum faucibus urna. Arcu, ut sed tellus lacus quisque diam. Semper sed aenean in
-              etiam
-              mus
-              praesent diam semper in. Pretium id a amet, massa ligula nibh faucibus ornare. Ut aenean rhoncus sed nam
-              ut
-              diam
-              dapibus. Risus nibh faucibus eu vestibulum tempor, quis ultrices mauris. Porta enim, donec odio sagittis,
-              eget
-              velit at. </p>
-          </blockquote>
-        </li>
-        <li class="review-second">
-          <cite class="review-second-item">Кира Иванова</cite>
-          <p class="review-second-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci
-            gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec
-            sit
-            imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.
-            Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci.
-            Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at
-            elit,
-            convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed
-            tempus
-            mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis. </p>
-        </li>
-        <li class="review-first">
-          <cite class="review-first-item">Яна Жернова</cite>
-          <p class="review-first-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia eget mattis orci aliquam enim tincidunt
-            gravida
-            aliquet ut. Ipsum vulputate morbi felis, lobortis tincidunt. Pretium dictum odio feugiat auctor diam sit
-            viverra
-            gravida. Lobortis arcu rhoncus, mi mi vitae feugiat amet, vitae ac. Cursus diam turpis iaculis nisi sit. Vel
-            blandit et sit elit vestibulum feugiat proin tempor, justo. Diam commodo, pellentesque at porttitor
-            tristique
-            faucibus faucibus morbi. Bibendum pretium lacus, tempus viverra vitae odio nunc eget.
-            Tortor fermentum orci neque sed. Mauris faucibus diam lorem erat ullamcorper donec egestas neque. Maecenas
-            malesuada mauris magnis sed id. Luctus vitae justo, in consectetur arcu. Nulla feugiat at eu in aliquet.
-            Diam
-            nunc, libero mauris tellus suspendisse morbi sagittis semper. </p>
-        </li>
-      </ul>
+          <ul class="reviews-list">
+            <li class="review-first">
+              <blockquote>
+                <cite class="review-first-item">Александра Дмитриева</cite>
+                <p class="review-first-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur
+                  nulla viverra egestas tellus. Cursus
+                  scelerisque phasellus netus proin. Etiam mauris maecenas facilisis faucibus mauris eleifend purus.
+                  Purus
+                  dictum
+                  vulputate elementum mauris amet.
+                  Hendrerit sit cras ullamcorper morbi quam vitae ante nibh. Ornare ipsum mi nisl augue placerat lacus.
+                  Dolor
+                  ipsum
+                  fermentum viverra bibendum faucibus urna. Arcu, ut sed tellus lacus quisque diam. Semper sed aenean in
+                  etiam
+                  mus
+                  praesent diam semper in. Pretium id a amet, massa ligula nibh faucibus ornare. Ut aenean rhoncus sed
+                  nam
+                  ut
+                  diam
+                  dapibus. Risus nibh faucibus eu vestibulum tempor, quis ultrices mauris. Porta enim, donec odio
+                  sagittis,
+                  eget
+                  velit at. </p>
+              </blockquote>
+            </li>
+            <li class="review-second">
+              <cite class="review-second-item">Кира Иванова</cite>
+              <p class="review-second-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam
+                risus morbi nulla dictum. Urna mi orci
+                gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh
+                donec
+                sit
+                imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.
+                Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus
+                orci.
+                Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at
+                elit,
+                convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed
+                tempus
+                mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis. </p>
+            </li>
+            <li class="review-first">
+              <cite class="review-first-item">Яна Жернова</cite>
+              <p class="review-first-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia eget
+                mattis orci aliquam enim tincidunt
+                gravida
+                aliquet ut. Ipsum vulputate morbi felis, lobortis tincidunt. Pretium dictum odio feugiat auctor diam sit
+                viverra
+                gravida. Lobortis arcu rhoncus, mi mi vitae feugiat amet, vitae ac. Cursus diam turpis iaculis nisi sit.
+                Vel
+                blandit et sit elit vestibulum feugiat proin tempor, justo. Diam commodo, pellentesque at porttitor
+                tristique
+                faucibus faucibus morbi. Bibendum pretium lacus, tempus viverra vitae odio nunc eget.
+                Tortor fermentum orci neque sed. Mauris faucibus diam lorem erat ullamcorper donec egestas neque.
+                Maecenas
+                malesuada mauris magnis sed id. Luctus vitae justo, in consectetur arcu. Nulla feugiat at eu in aliquet.
+                Diam
+                nunc, libero mauris tellus suspendisse morbi sagittis semper. </p>
+            </li>
+          </ul>
           <div class="logo-for-reviews">
-      <img src="./assets/controls.svg" alt="controls">
+            <img alt="controls" src="./assets/controls.svg">
           </div>
         </div>
       </div>
@@ -189,51 +188,60 @@
 
     <section class="about">
       <div class="services-item">
-        <img src="./assets/blue-logo-1.svg" alt="blue-logo">
+        <img alt="blue-logo" src="./assets/blue-logo-1.svg">
         <h2 class="services-title">Про RitmStyle</h2>
-        <img src="./assets/blue-logo-2.svg" alt="blue-logo-2">
+        <img alt="blue-logo-2" src="./assets/blue-logo-2.svg">
       </div>
       <div class="container-2">
-      <div class="about-menu">
-      <ul class="margin">
-        <li>
-          <h3 class="about-menu-item">RitmStyle масаж</h3>
-        </li>
-        <li>
-          <p class="about-menu-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed tellus eget mattis nibh quam. Eu
-            ornare nunc, id est. Erat consectetur etiam a sit diam in imperdiet amet. Diam nisl, ipsum suscipit amet.
-            Eleifend
-            amet habitasse proin quis adipiscing.
-            Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas dictumst quam. Felis amet diam, non augue
-            massa.
-            Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.</p>
-        </li>
-        <li class="about-photo-1">
-          <img src="./images/photo4.png" alt="photo4">
-        </li>
-      </ul>
-      <ul>
-        <li class="about-photo-2">
-          <img src="./images/photo4.png" alt="photo4">
-        </li>
-        <li>
-          <h3 class="about-menu-item-2">RitmStyle гидротерапия</h3>
-        </li>
-        <li>
-          <p class="about-menu-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu cras quis ac a non ut viverra turpis eget.
-            Hendrerit quis pulvinar massa ipsum sem. Donec posuere nulla enim non neque etiam. Eros arcu, pulvinar penatibus
-            luctus ridiculus sagittis vel nunc hac. Nisi, diam tincidunt dui viverra. Eget quis ultricies sem nunc risus
-            senectus luctus ultricies. Enim feugiat pharetra pharetra et.
-            Pulvinar arcu at morbi posuere cursus. Fermentum est sit enim velit ornare molestie. Ipsum nisi id sed tempor
-            elementum. Mi nunc eget pellentesque ipsum. Suspendisse risus a id vel massa tincidunt. Hendrerit blandit in
-            augue
-            vel mi quam magna egestas. Fringilla ac lacus viverra ullamcorper leo, enim vitae id aliquam. Magna sed
-            tristique
-            tellus enim, netus tempor at elit dui. Ullamcorper hendrerit feugiat libero tellus diam egestas dui tellus
-            odio.</p>
-        </li>
-      </ul>
-      </div>
+        <div class="about-menu">
+          <ul class="margin">
+            <li>
+              <h3 class="about-menu-item">RitmStyle масаж</h3>
+            </li>
+            <li>
+              <p class="about-menu-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed
+                tellus eget mattis nibh quam. Eu
+                ornare nunc, id est. Erat consectetur etiam a sit diam in imperdiet amet. Diam nisl, ipsum suscipit
+                amet.
+                Eleifend
+                amet habitasse proin quis adipiscing.
+                Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas dictumst quam. Felis amet diam, non
+                augue
+                massa.
+                Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.</p>
+            </li>
+            <li class="about-photo-1">
+              <img alt="photo4" src="./images/photo4.png">
+            </li>
+          </ul>
+          <ul>
+            <li class="about-photo-2">
+              <img alt="photo4" src="./images/photo4.png">
+            </li>
+            <li>
+              <h3 class="about-menu-item-2">RitmStyle гидротерапия</h3>
+            </li>
+            <li>
+              <p class="about-menu-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu cras quis ac a
+                non ut viverra turpis eget.
+                Hendrerit quis pulvinar massa ipsum sem. Donec posuere nulla enim non neque etiam. Eros arcu, pulvinar
+                penatibus
+                luctus ridiculus sagittis vel nunc hac. Nisi, diam tincidunt dui viverra. Eget quis ultricies sem nunc
+                risus
+                senectus luctus ultricies. Enim feugiat pharetra pharetra et.
+                Pulvinar arcu at morbi posuere cursus. Fermentum est sit enim velit ornare molestie. Ipsum nisi id sed
+                tempor
+                elementum. Mi nunc eget pellentesque ipsum. Suspendisse risus a id vel massa tincidunt. Hendrerit
+                blandit in
+                augue
+                vel mi quam magna egestas. Fringilla ac lacus viverra ullamcorper leo, enim vitae id aliquam. Magna sed
+                tristique
+                tellus enim, netus tempor at elit dui. Ullamcorper hendrerit feugiat libero tellus diam egestas dui
+                tellus
+                odio.</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -261,24 +269,24 @@
           <td>11500</td>
         </tr>
       </table>
-      <img src="./images/photo5.png" alt="photo5">
+      <img alt="photo5" src="./images/photo5.png">
       <p>Подарунковий сертифікат</p>
     </section>
 
     <section class="contacts">
-      <img src="./images/kyiv.png" alt="kyivcity">
+      <img alt="kyivcity" src="./images/kyiv.png">
       <h3>Бассейн WorkClass</h3>
       <table>
         <tr>
-          <td><img src="./assets/location-logo.svg" alt="Адреса"></td>
+          <td><img alt="Адреса" src="./assets/location-logo.svg"></td>
           <td>Довженка,14</td>
         </tr>
         <tr>
-          <td><img src="./assets/metro_logo.svg" alt="Метро"></td>
+          <td><img alt="Метро" src="./assets/metro_logo.svg"></td>
           <td>м. Шулявська</td>
         </tr>
         <tr>
-          <td><img src="./assets/calendar-logo.svg" alt="Календар"></td>
+          <td><img alt="Календар" src="./assets/calendar-logo.svg"></td>
           <td>Запис по домовленості</td>
         </tr>
       </table>
@@ -286,15 +294,15 @@
       <h3>Бассейн "На Позняках"</h3>
       <table>
         <tr>
-          <td><img src="./assets/location-logo.svg" alt="Адреса"></td>
+          <td><img alt="Адреса" src="./assets/location-logo.svg"></td>
           <td>Мишуги,12</td>
         </tr>
         <tr>
-          <td><img src="./assets/metro_logo.svg" alt="Метро"></td>
+          <td><img alt="Метро" src="./assets/metro_logo.svg"></td>
           <td>м. Позняки</td>
         </tr>
         <tr>
-          <td><img src="./assets/calendar-logo.svg" alt="Календар"></td>
+          <td><img alt="Календар" src="./assets/calendar-logo.svg"></td>
           <td>Запис по домовленості</td>
         </tr>
       </table>
@@ -304,7 +312,7 @@
 
   <footer class="container">
     <div class="footer">
-    <p>© 2018-2022 RitmStyle</p>
+      <p>© 2018-2022 RitmStyle</p>
       <p>Зроблено d-e-n.info</p>
     </div>
   </footer>
