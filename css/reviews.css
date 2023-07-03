@@ -32,7 +32,7 @@
   margin-bottom: 100px;
 }
 
-.review-first-item {
+.review-side-name {
   display: flex;
   width: 410px;
   flex-direction: column;
@@ -43,8 +43,8 @@
   padding: 40px 45px 15px 45px;
 }
 
-.review-first {
-  width: 30%;
+.review-side {
+  width: 28%;
   height: 276px;
   flex-shrink: 0;
   border-radius: 10px;
@@ -52,9 +52,8 @@
   opacity: 0.5;
 }
 
-.review-first-item-text{
+.review-side-item-text{
   display: flex;
-  width: 410px;
   flex-direction: column;
   flex-shrink: 0;
   font-size: 10px;
@@ -63,15 +62,16 @@
   padding: 0 45px 70px 45px;
 }
 
-.review-second{
-  width: 40%;
-  height: 350px;
+.review-center{
+  width: 38%;
+  max-height: 350px;
   flex-shrink: 0;
   border-radius: 10px;
   background: #018ABE;
+  margin: 0 30px;
 }
 
-.review-second-item{
+.review-center-name{
   display: flex;
   width: 516px;
   flex-direction: column;
@@ -82,13 +82,12 @@
   padding: 50px 60px 20px 60px;
 }
 
-.review-second-item-text{
+.review-center-item-text{
   display: flex;
-  width: 516px;
   flex-direction: column;
   flex-shrink: 0;
   font-size: 14px;
   font-weight: 300;
   line-height: 140%;
-  padding: 0 60px 56px 60px;
+  padding: 0 60px 50px 60px;
 }

@@ -113,78 +113,22 @@ body {
   margin-bottom: 150px;
 }
 
-
-.about-menu{
+.section-title {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
 
-.container-2 {
+.container-about {
   width: 100%;
   max-width: 1096px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-.margin{
-  margin-right: 24px;
-}
 
-.about-menu-item {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 140%;
-  padding: 66px 120px 30px 0;
-}
-
-.about-menu-text{
-  display: flex;
-  width: 500px;
-  flex-direction: column;
-  flex-shrink: 0;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 140%;
-  padding: 0 60px 166px 0;
-}
-
-.about-photo-1{
-  width: 526px;
-  height: 400px;
-  flex-shrink: 0;
-  border-radius: 10px;
-}
-
-.about-photo-2{
-  width: 526px;
-  height: 365px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  padding-right: 0;
-}
-
-.about-menu-item-2{
-  display: flex;
-  width: 415px;
-  flex-direction: column;
-  flex-shrink: 0;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 140%;
-  padding: 117px 0 30px 60px;
-}
-
-.about-menu-text-2{
-  display: flex;
-  width: 520px;
-  flex-direction: column;
-  flex-shrink: 0;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 140%;
-  padding: 0 0 17px 60px;
-}
 
 .footer {
   display: flex;

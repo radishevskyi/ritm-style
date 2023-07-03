@@ -1,0 +1,83 @@
+.about{
+ margin-bottom: 150px;
+}
+
+.container-about {
+  width: 100%;
+  max-width: 1096px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.about-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 84px;
+}
+
+.about-list-item{
+  max-width: 466px;
+  max-height: 234px;
+  flex-shrink: 0;
+}
+
+.about-list-massage {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  padding-bottom: 30px;
+  padding-top: 60px;
+}
+
+.about-list-text{
+  display: flex;
+  max-width: 460px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.about-photo-1{
+  max-width: 500px;
+  max-height: 360px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+.about-photo-2{
+  max-width: 500px;
+  max-height: 400px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  padding-right: 0;
+}
+
+.about-list-item-2{
+  max-width: 466px;
+  max-height: 366px;
+  flex-shrink: 0;
+}
+
+.about-list-hidro{
+  display: flex;
+  width: 415px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-weight: 700;
+  line-height: 140%;
+  padding-bottom: 30px;
+  padding-top: 16px;
+}
+
+.about-list-text-2{
+  display: flex;
+  max-width: 460px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 140%;
+}
