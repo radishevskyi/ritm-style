@@ -34,6 +34,10 @@ body {
   color: #fff;
 }
 
+main{
+  flex-grow: 1;
+}
+
 .container {
   width: 100%;
   max-width: 1316px;
@@ -71,7 +75,6 @@ body {
   flex-shrink: 0;
 }
 
-
 .button {
   display: inline-flex;
   padding: 9px 15px;
@@ -81,7 +84,6 @@ body {
   border-radius: 3px;
   background: #018ABE;
 }
-
 
 .water-therapy{
   text-align: center;
@@ -120,23 +122,158 @@ body {
   margin-bottom: 100px;
 }
 
+.section-title-item {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  padding: 0 45px;
+}
 
-.container-about {
+.price{
+  margin-bottom: 150px;
+}
+
+.container-price{
   width: 100%;
   max-width: 1096px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
+.price-list{
+  display: flex;
+  flex: 1;
+  gap: 130px;
+  justify-content: space-between;
+}
 
+.logo-price{
+  width: 18px;
+  height: 9px;
+  flex-shrink: 0;
+  border-radius: 0px 50px;
+}
+
+.price-table{
+  max-width: 416px;
+  max-height: 250px;
+  flex-shrink: 0;
+  margin-top: 100px;
+}
+
+
+.price-table-item{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  display: flex;
+  width: 268px;
+  padding: 0 20px 30px 20px;
+}
+
+.price-table-item-cost{
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 140%;
+  width: 87px;
+}
+
+.price-item-photo{
+  max-width: 526px;
+  max-height: 455px;
+  flex-shrink: 0;
+}
+
+.price-gift{
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 140%;
+  padding-top: 30px;
+}
+
+.contacts-container{
+  width: 100%;
+  max-width: 1316px;
+  margin: 0 auto;
+  padding: 0 10px;
+  margin-bottom: 90px;
+  display: flex;
+  flex: 1;
+}
+
+.map{
+  max-width: 856px;
+  height: 604px;
+  flex-shrink: 0;
+  flex-basis: 856px;
+  border-radius: 10px;
+  margin-right: 48px;
+}
+
+.location{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 24px;
+}
+
+.location-item{
+  width: 392px;
+  height: 290px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #018ABE;
+  padding: 35px 45px;
+}
+
+.location-item-name{
+  max-width: 300px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  padding-bottom: 20px;
+}
+
+.contacts-names{
+  display: flex;
+  width: 262px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.contacts-logo{
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  padding-right: 20px;
+}
+
+.contacts-table{
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.contacts-table-item{
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts-button{
+  display: inline-flex;
+  padding: 9px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+}
 
 .footer {
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
-}
-
-
-.main{
-  flex-grow: 1;
 }

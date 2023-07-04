@@ -38,25 +38,6 @@
   border-color: #018ABE;
 }
 
-.services-title {
-  text-align: center;
-  font-size: 42px;
-  font-weight: 700;
-  padding: 0 45px;
-}
-
-
-.slide-2{
-  width: 416px;
-  height: 540px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: flex-end;
-}
-
-.service-card{
-}
-
 .name-standart{
   font-size: 24px;
   font-weight: 700;
@@ -64,7 +45,6 @@
   padding: 0 0 40px 50px;
   max-width: 336px;
 }
-
 
 .name {
   font-size: 24px;
