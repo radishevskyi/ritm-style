@@ -9,7 +9,7 @@
 
 .service-card.is--main{
   background-image: url("../images/photo2.png");
-  flex-basis: 300px;
+  flex-basis: auto;
   max-width: 416px;
   max-height: 540px;
 }
@@ -19,7 +19,7 @@
   display: flex;
   flex-wrap: wrap;
   flex: 1;
-  gap: 24px;
+  gap: 20px;
 }
 
 .service-card{
@@ -27,23 +27,27 @@
   min-height: 258px;
   background-image: url("../images/photo3.png");
   background-size: cover;
-  flex-basis: 416px;
+  flex-basis: auto;
   border-radius: 10px;
   display: flex;
   align-items: flex-end;
-  border-bottom: 7px solid transparent;
+  position: relative;
+  overflow: hidden;
 }
 
-.service-card:hover{
-  border-color: #018ABE;
+.service-card:after{
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  height: 7px;
 }
 
-.name-standart{
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 140%;
-  padding: 0 0 40px 50px;
-  max-width: 336px;
+.service-card:hover:after{
+  background-color: #018ABE;
 }
 
 .name {

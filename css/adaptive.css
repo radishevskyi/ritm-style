@@ -1,0 +1,22 @@
+@media (max-width: 992px){
+  .navigation-container{
+    display: none;
+  }
+  .navigation-container.is--open{
+    display: block;
+  }
+  .menu-list {
+    display: block;
+  }
+  .btn-menu-expand{
+    display: flex;
+  }
+  .logo{
+    width: 40px;
+    height: 40px;
+  }
+  body{
+    padding-top: 100px;
+  }
+}
+
