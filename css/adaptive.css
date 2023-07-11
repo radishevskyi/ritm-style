@@ -1,3 +1,42 @@
+@media (max-width: 1300px){
+  .services-list{
+  }
+  .service-card.is--main{
+    max-width: 30%;
+  }
+  .water-therapy{
+    height: 450px;
+  }
+  .title{
+    font-size: 55px;
+  }
+  .paragraph-inner{
+    font-size: 20px;
+  }
+
+  .first-screen-item {
+    gap: 40px;
+  }
+
+  .first-screen {
+    margin-bottom: 100px;
+  }
+  .services {
+    margin-bottom: 100px;
+  }
+  .service-card{
+    min-height: 150px;
+  }
+
+  .section-title-item {
+    font-size: 35px;
+  }
+  .section-title {
+    margin-bottom: 80px;
+  }
+
+}
+
 @media (max-width: 992px){
   .navigation-container{
     display: none;
@@ -18,5 +57,52 @@
   body{
     padding-top: 100px;
   }
+  .water-therapy{
+    height: 300px;
+  }
+  .section-title-item {
+    font-size: 30px;
+  }
+  .first-screen {
+    margin-bottom: 90px;
+  }
+  .section-title {
+    margin-bottom: 70px;
+  }
 }
+
+@media (max-width: 768px){
+  .service-card.is--main{
+    max-width: initial;
+    flex-basis: 100%;
+    background-image: url("../assets/images/photo3.png");
+  }
+  .first-screen {
+    margin-bottom: 80px;
+  }
+  .section-title {
+    margin-bottom: 60px;
+  }
+
+}
+
+@media (max-width: 575px){
+  .service-cards{
+    flex-basis: 100%;
+  }
+  .service-card{
+    min-height: 100px;
+  }
+  .service-card-name {
+    max-width: 550px;
+  }
+  .first-screen {
+    margin-bottom: 70px;
+  }
+  .section-title {
+    margin-bottom: 50px;
+  }
+}
+
+
 

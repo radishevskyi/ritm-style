@@ -7,6 +7,9 @@
   max-width: 1096px;
   margin: 0 auto;
   padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-list{
@@ -19,13 +22,11 @@
 .about-list-item-1{
   max-width: 50%;
   max-height: 234px;
-  flex-shrink: 0;
 }
 
 .about-list-massage {
   font-size: 24px;
   font-weight: 700;
-  line-height: 140%;
   padding-bottom: 30px;
   padding-top: 60px;
 }
@@ -34,23 +35,19 @@
   display: flex;
   max-width: 460px;
   flex-direction: column;
-  flex-shrink: 0;
   font-size: 14px;
   font-weight: 300;
-  line-height: 140%;
 }
 
 .about-list-item-2{
   max-width: 50%;
   max-height: 360px;
-  flex-shrink: 0;
   border-radius: 10px;
 }
 
 .about-list-item-3{
   max-width: 50%;
   max-height: 400px;
-  flex-shrink: 0;
   border-radius: 10px;
   padding-right: 0;
 }
@@ -58,17 +55,14 @@
 .about-list-item-4{
   max-width: 50%;
   max-height: 366px;
-  flex-shrink: 0;
 }
 
-.about-list-hidro{
+.about-list-hydro{
   display: flex;
   width: 415px;
   flex-direction: column;
-  flex-shrink: 0;
   font-weight: 700;
-  line-height: 140%;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   padding-top: 16px;
 }
 
@@ -76,8 +70,6 @@
   display: flex;
   max-width: 460px;
   flex-direction: column;
-  flex-shrink: 0;
   font-size: 14px;
   font-weight: 300;
-  line-height: 140%;
 }

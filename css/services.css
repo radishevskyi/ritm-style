@@ -2,31 +2,32 @@
   margin-bottom: 150px;
 }
 
-.services-list{
-  display: flex;
-}
-
-
 .service-card.is--main{
-  background-image: url("../images/photo2.png");
+  background-image: url("../assets/images/photo2.png");
   flex-basis: auto;
-  max-width: 416px;
+  max-width: 30%;
   max-height: 540px;
 }
 
-.services-list,
+.services-list{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 .service-cards{
   display: flex;
-  flex-wrap: wrap;
-  flex: 1;
+  flex-direction: column;
   gap: 20px;
+  flex: 1;
 }
 
 .service-card{
   flex: 1;
-  min-height: 258px;
-  background-image: url("../images/photo3.png");
+  min-height: 260px;
+  background-image: url("../assets/images/photo3.png");
   background-size: cover;
+  background-position: center;
   flex-basis: auto;
   border-radius: 10px;
   display: flex;
@@ -50,10 +51,9 @@
   background-color: #018ABE;
 }
 
-.name {
+.service-card-name {
   font-size: 24px;
   font-weight: 700;
-  line-height: 140%;
-  padding: 0 0 30px 40px;
+  padding: 30px;
   max-width: 336px;
 }
