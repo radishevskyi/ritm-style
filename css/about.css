@@ -7,21 +7,24 @@
   max-width: 1096px;
   margin: 0 auto;
   padding: 0 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .about-list{
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
-  gap: 84px;
+  gap: 80px;
 }
 
-.about-list-item-1{
-  max-width: 50%;
-  max-height: 234px;
+.about-list-item{
+  flex: 1;
+}
+
+.about-list-item-photo{
+  max-height: 450px;
+  max-width: 520px;
+  border-radius: 10px;
+  flex: 1;
+  background-position: center;
 }
 
 .about-list-massage {
@@ -31,42 +34,15 @@
   padding-top: 60px;
 }
 
-.about-list-text{
-  display: flex;
-  max-width: 460px;
-  flex-direction: column;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-.about-list-item-2{
-  max-width: 50%;
-  max-height: 360px;
-  border-radius: 10px;
-}
-
-.about-list-item-3{
-  max-width: 50%;
-  max-height: 400px;
-  border-radius: 10px;
-  padding-right: 0;
-}
-
-.about-list-item-4{
-  max-width: 50%;
-  max-height: 366px;
-}
-
 .about-list-hydro{
   display: flex;
-  width: 415px;
   flex-direction: column;
   font-weight: 700;
   padding-bottom: 20px;
   padding-top: 16px;
 }
 
-.about-list-text-2{
+.about-list-text{
   display: flex;
   max-width: 460px;
   flex-direction: column;

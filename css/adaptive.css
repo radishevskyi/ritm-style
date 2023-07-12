@@ -1,6 +1,4 @@
 @media (max-width: 1300px){
-  .services-list{
-  }
   .service-card.is--main{
     max-width: 30%;
   }
@@ -27,7 +25,6 @@
   .service-card{
     min-height: 150px;
   }
-
   .section-title-item {
     font-size: 35px;
   }
@@ -69,6 +66,10 @@
   .section-title {
     margin-bottom: 70px;
   }
+  .about-list-item-photo{
+    max-width: 450px;
+  }
+
 }
 
 @media (max-width: 768px){
@@ -82,6 +83,34 @@
   }
   .section-title {
     margin-bottom: 60px;
+  }
+  .about-list-item-photo{
+    max-width: 350px;
+  }
+  .about-list-massage {
+    padding-top: 30px;
+  }
+  .about-list-hydro{
+    padding-top: 5px;
+  }
+  .about-list{
+    gap: 40px;
+  }
+  .price-item-photo{
+    max-height: 300px;
+    max-width: 400px;
+  }
+  .price-table{
+    margin-top: 50px;
+  }
+  .container-price{
+    gap: 60px;
+  }
+  .price-table-item{
+    font-size: 14px;
+  }
+  .price-table-item-cost{
+    font-size: 14px;
   }
 
 }
@@ -101,6 +130,27 @@
   }
   .section-title {
     margin-bottom: 50px;
+  }
+  .about-list{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .about-list-item-photo.when-575px{
+    display: none;
+  }
+  .about-list-item-photo{
+    max-height: 50px;
+    max-width: initial;
+  }
+  .container-price{
+    flex-wrap: wrap;
+  }
+  .price-item-photo{
+    max-height: 350px;
+    max-width: 450px;
+  }
+  .container-price{
+    gap: 20px;
   }
 }
 
