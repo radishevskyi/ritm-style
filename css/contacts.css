@@ -3,15 +3,12 @@
   max-width: 1316px;
   margin: 0 auto;
   padding: 0 10px;
-  margin-bottom: 90px;
   display: flex;
-  flex: 1;
 }
 
 .map{
+  height: 600px;
   max-width: 856px;
-  height: 604px;
-  flex-shrink: 0;
   flex-basis: 856px;
   border-radius: 10px;
   margin-right: 48px;
@@ -27,20 +24,17 @@
 
 .location-item{
   display: flex;
-  width: 392px;
-  height: 290px;
-  flex-shrink: 0;
   border-radius: 10px;
   background: #018ABE;
   padding: 35px 45px;
   flex-direction: column;
+  flex: 1;
 }
 
 .location-item-name{
   max-width: 300px;
   font-size: 24px;
   font-weight: 700;
-  line-height: 140%;
   padding-bottom: 20px;
 }
 
@@ -50,16 +44,11 @@
   font-weight: 400;
 }
 
-.contacts-icon{
-  flex-shrink: 0;
-}
-
-
-.contacts-table{
+.contacts-list{
   margin-bottom: 10px;
 }
 
-.contacts-table-item{
+.contacts-list-item{
   display: flex;
   align-items: center;
   gap: 20px;

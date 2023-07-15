@@ -31,7 +31,24 @@
   .section-title {
     margin-bottom: 80px;
   }
-
+  .about{
+    margin-bottom: 120px;
+  }
+  .review-aside-item-text{
+    padding: 20px 40px 40px 40px;
+  }
+  .review-center-item-text{
+    padding: 20px 40px 40px 40px;
+  }
+  .review-center-name{
+    padding: 40px 0 0 40px ;
+  }
+  .review-aside-name{
+    padding: 40px 0 0 40px ;
+  }
+  .logo-for-reviews{
+    margin-bottom: 120px;
+  }
 }
 
 @media (max-width: 992px){
@@ -69,7 +86,31 @@
   .about-list-item-photo{
     max-width: 450px;
   }
-
+  .about{
+    margin-bottom: 100px;
+  }
+  .services {
+    margin-bottom: 100px;
+  }
+  .map{
+    flex-basis: 600px;
+    margin-right: 35px;
+  }
+  .review-aside-item-text{
+    padding: 20px 30px 30px 30px;
+  }
+  .review-center-item-text{
+    padding: 20px 30px 30px 30px;
+  }
+  .review-center-name{
+    padding: 30px 0 0 30px ;
+  }
+  .review-aside-name{
+    padding: 30px 0 0 30px ;
+  }
+  .logo-for-reviews{
+    margin-bottom: 100px;
+  }
 }
 
 @media (max-width: 768px){
@@ -112,7 +153,58 @@
   .price-table-item-cost{
     font-size: 14px;
   }
-
+  .about{
+    margin-bottom: 80px;
+  }
+  .services {
+    margin-bottom: 80px;
+  }
+  .map{
+    flex-basis: 480px;
+    margin-right: 25px;
+    height: 480px;
+  }
+  .location-item{
+    padding: 20px 30px;
+  }
+  .location-item-name{
+    font-size: 17px;
+  }
+  .contacts-names{
+    font-size: 10px;
+  }
+  .contacts-list-item{
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  .reviews-list-item-center {
+    width: 70%;
+  }
+  .reviews-list-item-aside {
+    width: 70%;
+    display: none;
+  }
+  .review-aside-item-text{
+    padding: 20px 30px 30px 30px;
+  }
+  .review-center-item-text{
+    padding: 20px 30px 30px 30px;
+  }
+  .review-center-name{
+    padding: 30px 0 0 30px ;
+  }
+  .review-aside-name{
+    padding: 30px 0 0 30px ;
+  }
+  .logo-for-reviews{
+    margin-bottom: 100px;
+  }
+  .logo-for-reviews{
+    margin-bottom: 80px;
+  }
+  .footer {
+    margin-top: 80px;
+  }
 }
 
 @media (max-width: 575px){
@@ -135,12 +227,27 @@
     flex-direction: column;
     flex-wrap: nowrap;
   }
-  .about-list-item-photo.when-575px{
-    display: none;
+  .about-list-item{
+    background-image: url("../assets/images/photo4.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    min-height: 270px;
   }
+  .about-list-massage {
+    padding: 30px 20px;
+  }
+
+  .about-list-hydro{
+    padding: 20px 20px;
+  }
+
+  .about-list-text{
+    padding-left: 20px;
+  }
+
   .about-list-item-photo{
-    max-height: 50px;
-    max-width: initial;
+    display: none;
   }
   .container-price{
     flex-wrap: wrap;
@@ -151,6 +258,66 @@
   }
   .container-price{
     gap: 20px;
+  }
+  .about{
+    margin-bottom: 50px;
+  }
+  .services {
+    margin-bottom: 50px;
+  }
+  .price{
+    margin-bottom: 50px;
+  }
+  .price-table{
+    margin: 0 auto;
+  }
+  .price-item-gift{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: initial;
+  }
+  .contacts-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .map{
+    margin-right: 0;
+    margin-bottom: 20px;
+    height: 300px;
+    flex-basis: 100%;
+  }
+  .location-item{
+    padding: 20px 30px;
+  }
+  .location-item-name{
+    font-size: 18px;
+  }
+  .contacts-names{
+    font-size: 12px;
+  }
+  .contacts-list-item{
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  .logo-for-reviews{
+    margin-bottom: 50px;
+  }
+  .review-aside-item-text{
+    font-size: 12px;
+  }
+  .review-center-item-text{
+    font-size: 12px;
+  }
+  .review-center-name{
+    font-size: 14px;
+  }
+  .review-aside-name{
+    font-size: 14px;
+  }
+  .footer {
+    margin-top: 60px;
   }
 }
 

@@ -103,4 +103,5 @@ main{
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
+  margin-top: 90px;
 }
