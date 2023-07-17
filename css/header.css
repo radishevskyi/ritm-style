@@ -13,15 +13,6 @@
   flex: 1;
 }
 
-.navigation-container.is--open{
-  position: fixed;
-  right: 0;
-  top: 0;
-  height: 100vh;
-  width: 400px;
-  background-color: #162831;
-}
-
 .btn-menu-expand{
   width: 20px;
   height: 15px;
