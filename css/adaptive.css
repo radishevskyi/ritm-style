@@ -127,6 +127,9 @@
   .logo-for-reviews{
     margin-bottom: 100px;
   }
+  .price-table{
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 768px){
@@ -153,12 +156,8 @@
   .about-list{
     gap: 40px;
   }
-  .price-item-photo{
-    max-height: 300px;
-    max-width: 400px;
-  }
   .price-table{
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .container-price{
     gap: 60px;
@@ -253,24 +252,17 @@
   .about-list-massage {
     padding: 30px 20px;
   }
-
   .about-list-hydro{
     padding: 20px;
   }
-
   .about-list-text{
     padding-left: 20px;
   }
-
   .about-list-item-photo{
     display: none;
   }
   .container-price{
     flex-wrap: wrap;
-  }
-  .price-item-photo{
-    max-height: 350px;
-    max-width: 450px;
   }
   .container-price{
     gap: 20px;
@@ -286,6 +278,7 @@
   }
   .price-table{
     margin: 0 auto;
+    order: 1;
   }
   .price-item-gift{
     display: flex;
@@ -293,6 +286,8 @@
     align-items: center;
     justify-content: center;
     max-width: initial;
+    flex-basis: 100%;
+    order: 0;
   }
   .contacts-container{
     display: flex;
@@ -350,6 +345,9 @@
   .price-item-photo{
     max-height: 270px;
     max-width: 370px;
+  }
+  .about-list-text{
+    padding: 0 20px 0 20px;
   }
 }
 
