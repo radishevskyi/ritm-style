@@ -32,10 +32,11 @@
 .reviews-list-item {
   border-radius: 10px;
   background: #018ABE;
+  height: 310px;
 }
 
 .reviews-padding.slick-slide{
-  min-height: 310px;
+  min-height: 320px;
 }
 
 .review-name{
