@@ -11,11 +11,9 @@
   .paragraph-inner{
     font-size: 20px;
   }
-
   .first-screen-item {
     gap: 40px;
   }
-
   .first-screen {
     margin-bottom: 100px;
   }
@@ -34,19 +32,13 @@
   .about{
     margin-bottom: 120px;
   }
-  .review-aside-item-text{
+  .review-item-text{
     padding: 20px 40px 40px 40px;
   }
-  .review-center-item-text{
-    padding: 20px 40px 40px 40px;
-  }
-  .review-center-name{
+  .review-name{
     padding: 40px 0 0 40px ;
   }
-  .review-aside-name{
-    padding: 40px 0 0 40px ;
-  }
-  .logo-for-reviews{
+  .container-reviews{
     margin-bottom: 120px;
   }
 }
@@ -54,25 +46,25 @@
 @media (max-width: 992px){
   .navigation-container{
     display: none;
-    justify-content: space-between;
   }
   .navigation-container.is--open{
-    display: block;
+    display: flex;
     position: fixed;
     right: 0;
-    top: 0;
-    height: 100vh;
+    top: 100px;
+    height: calc(100vh - 100px);
     width: 200px;
     background-color: #162831;
-    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .menu-list {
-    display: block;
-    padding: 50px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
   .menu-list-item{
     font-size: 20px;
-    margin-bottom: 40px;
   }
   .btn-menu-expand{
     display: flex;
@@ -83,6 +75,7 @@
   }
   .button {
     font-size: 15px;
+    margin-bottom: 10px;
   }
   body{
     padding-top: 100px;
@@ -112,19 +105,7 @@
     flex-basis: 600px;
     margin-right: 35px;
   }
-  .review-aside-item-text{
-    padding: 20px 30px 30px 30px;
-  }
-  .review-center-item-text{
-    padding: 20px 30px 30px 30px;
-  }
-  .review-center-name{
-    padding: 30px 0 0 30px ;
-  }
-  .review-aside-name{
-    padding: 30px 0 0 30px ;
-  }
-  .logo-for-reviews{
+  .container-reviews{
     margin-bottom: 100px;
   }
   .price-table{
@@ -192,29 +173,7 @@
     gap: 15px;
     margin-bottom: 15px;
   }
-  .reviews-list-item-center {
-    width: 70%;
-  }
-  .reviews-list-item-aside {
-    width: 70%;
-    display: none;
-  }
-  .review-aside-item-text{
-    padding: 20px 30px 30px 30px;
-  }
-  .review-center-item-text{
-    padding: 20px 30px 30px 30px;
-  }
-  .review-center-name{
-    padding: 30px 0 0 30px ;
-  }
-  .review-aside-name{
-    padding: 30px 0 0 30px ;
-  }
-  .logo-for-reviews{
-    margin-bottom: 100px;
-  }
-  .logo-for-reviews{
+  .container-reviews{
     margin-bottom: 80px;
   }
   .footer {
@@ -263,8 +222,6 @@
   }
   .container-price{
     flex-wrap: wrap;
-  }
-  .container-price{
     gap: 20px;
   }
   .about{
@@ -277,7 +234,7 @@
     margin-bottom: 50px;
   }
   .price-table{
-    margin: 0 auto;
+    margin: 20px auto;
     order: 1;
   }
   .price-item-gift{
@@ -312,20 +269,8 @@
     gap: 15px;
     margin-bottom: 10px;
   }
-  .logo-for-reviews{
+  .container-reviews{
     margin-bottom: 50px;
-  }
-  .review-aside-item-text{
-    font-size: 12px;
-  }
-  .review-center-item-text{
-    font-size: 12px;
-  }
-  .review-center-name{
-    font-size: 14px;
-  }
-  .review-aside-name{
-    font-size: 14px;
   }
   .footer {
     margin-top: 60px;
@@ -333,12 +278,6 @@
 }
 
 @media (max-width: 400px){
-  .reviews-list-item-center {
-    width: 90%;
-  }
-  .reviews-list-item-aside {
-    width: 90%;
-  }
   .about-list-text{
     font-size: 12px;
   }
