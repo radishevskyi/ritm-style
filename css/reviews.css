@@ -29,14 +29,14 @@
   padding: 0 10px;
 }
 
+.reviews-list .slick-dots {
+  bottom: -45px;
+}
+
 .reviews-list-item {
   border-radius: 10px;
   background: #018ABE;
-  height: 310px;
-}
-
-.reviews-padding.slick-slide{
-  min-height: 320px;
+  min-height: 100%;
 }
 
 .review-name{
